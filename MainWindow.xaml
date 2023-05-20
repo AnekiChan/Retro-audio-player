@@ -1,0 +1,30 @@
+﻿<Window x:Class="Аудиоплеер.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Аудиоплеер"
+        mc:Ignorable="d"
+        Title="Аудиоплеер ♡〜٩( ╹▿╹ )۶〜♡" Height="400" Width="500" ResizeMode="NoResize">
+    <Grid>
+
+        <Image Margin="-9,-13,-12.4,-13.6" Source="1659524676_38-kartinkin-net-p-piksel-arti-yaponiya-oboi-56.png" Stretch="Fill"/>
+
+        <Border BorderBrush="#FF4C298E" BorderThickness="1,2,1,1" HorizontalAlignment="Left" Height="145" Margin="-18,239,-22.4,-13.6" VerticalAlignment="Top" Width="534" Background="#99FCDFF3"/>
+
+        <ListBox x:Name="playlist" Height="195" Margin="10,34,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="232" MouseUp="playlist_MouseUp" Background="#FFFCDFF3" BorderBrush="#FF473481" BorderThickness="2"/>
+
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="OpenAudio_Click" BorderBrush="#FF473481" Background="#FFF3E3EF" Foreground="#FF463481" FontFamily="Consolas" BorderThickness="2" FontWeight="Bold"/>
+        <Slider x:Name="audio_slider" HorizontalAlignment="Left" Margin="10,262,0,0" VerticalAlignment="Top" Width="474" Thumb.DragStarted="sliProgress_DragStarted"  Thumb.DragCompleted="sliProgress_DragCompleted" ValueChanged="sliProgress_ValueChanged" Background="#00E56767" BorderBrush="#FF261DAB" Foreground="White"/>
+        <Button x:Name="pause_button" Content="II" Margin="229,296,218.6,0" VerticalAlignment="Top" Height="46" FontSize="24" FontWeight="Bold" Click="Pause_Click" RenderTransformOrigin="0.604,0.152" Background="#FFF3E3EF" BorderBrush="#FF643BA5" Foreground="#FF4C298E" BorderThickness="2"/>
+        <TextBlock x:Name="audio_progress_status" HorizontalAlignment="Left" Margin="410,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Width="75" Foreground="#FF3B1B79" FontFamily="Consolas"><Run Text="00:00:00"/></TextBlock>
+        <ListBox x:Name="playlist_hidden" Height="205" Margin="247,34,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="232" Visibility="Hidden"/>
+        <Slider x:Name="volume_slider" HorizontalAlignment="Left" Margin="402,312,0,0" VerticalAlignment="Top" Width="77" ValueChanged="volume_slider_ValueChanged" LargeChange="0" IsDirectionReversed="True" Maximum="1" Value="0.5" Foreground="#FF4C298E"/>
+        <Label Content="🔊" HorizontalAlignment="Left" Margin="363,299,0,0" VerticalAlignment="Top" Width="39" Foreground="#FF3A2774" Background="#00FCDFF3" BorderBrush="#004C298E" BorderThickness="2" Height="37" FontSize="18"/>
+        <Button x:Name="delete_Button" Content="✖" HorizontalAlignment="Left" Margin="219,10,0,0" VerticalAlignment="Top" Width="23" Height="19" FontSize="11" Click="delet_Button_Click" BorderBrush="#FF473481" Background="#FFF682AF" Foreground="#FF43337C" BorderThickness="2"/>
+        <Button x:Name="play_Button_Copy" Content="▶" HorizontalAlignment="Left" Margin="191,10,0,0" VerticalAlignment="Top" Width="23" Height="19" FontSize="11" Click="play_Button_Click" Foreground="#FF473481" Background="#FF8B75DF" BorderBrush="#FF473481" BorderThickness="2"/>
+        <Button x:Name="last_button" Content="I◀" HorizontalAlignment="Left" Margin="180,303,0,0" VerticalAlignment="Top" Width="34" Height="34" FontSize="16" Click="last_button_Click" Background="#FFF3E3EF" BorderBrush="#FF643BA5" Foreground="#FF4C298E" BorderThickness="2"/>
+        <Button x:Name="next_audio" Content="▶I" Margin="0,303,170                 ,0" VerticalAlignment="Top" Height="34" FontSize="16" HorizontalAlignment="Right" Width="34" Click="next_audio_Click" Background="#FFF3E3EF" BorderBrush="#FF643BA5" Foreground="#FF4C298E" BorderThickness="2"/>
+
+    </Grid>
+</Window>

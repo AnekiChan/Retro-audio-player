@@ -1,0 +1,15 @@
+D:\сдо\прога\аудиоплеер\Аудиоплеер\bin\Debug\Аудиоплеер.exe.config
+D:\сдо\прога\аудиоплеер\Аудиоплеер\bin\Debug\Аудиоплеер.exe
+D:\сдо\прога\аудиоплеер\Аудиоплеер\bin\Debug\Аудиоплеер.pdb
+D:\сдо\прога\аудиоплеер\Аудиоплеер\obj\Debug\Аудиоплеер.csproj.AssemblyReference.cache
+D:\сдо\прога\аудиоплеер\Аудиоплеер\obj\Debug\MainWindow.g.cs
+D:\сдо\прога\аудиоплеер\Аудиоплеер\obj\Debug\App.g.cs
+D:\сдо\прога\аудиоплеер\Аудиоплеер\obj\Debug\Аудиоплеер_MarkupCompile.cache
+D:\сдо\прога\аудиоплеер\Аудиоплеер\obj\Debug\Аудиоплеер_MarkupCompile.lref
+D:\сдо\прога\аудиоплеер\Аудиоплеер\obj\Debug\MainWindow.baml
+D:\сдо\прога\аудиоплеер\Аудиоплеер\obj\Debug\Аудиоплеер.g.resources
+D:\сдо\прога\аудиоплеер\Аудиоплеер\obj\Debug\Аудиоплеер.Properties.Resources.resources
+D:\сдо\прога\аудиоплеер\Аудиоплеер\obj\Debug\Аудиоплеер.csproj.GenerateResource.cache
+D:\сдо\прога\аудиоплеер\Аудиоплеер\obj\Debug\Аудиоплеер.csproj.CoreCompileInputs.cache
+D:\сдо\прога\аудиоплеер\Аудиоплеер\obj\Debug\Аудиоплеер.exe
+D:\сдо\прога\аудиоплеер\Аудиоплеер\obj\Debug\Аудиоплеер.pdb
