@@ -44,11 +44,13 @@ namespace Аудиоплеер
             timer.Start();
         }
 
+        // Ошибка при открытии
         void player_MediaFailed(object sender, ExceptionEventArgs e)
         {
             MessageBox.Show("Ошибка во время открытия файла.");
         }
 
+        // загрузка плейлиста
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
             string path = @"text.txt";
@@ -65,6 +67,7 @@ namespace Аудиоплеер
 
         }
 
+        // сохранение плейлиста
         private void MainWindow_Closed(object sender, EventArgs e)
         {
             string path = @"text.txt";
